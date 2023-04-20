@@ -10,27 +10,20 @@ int main(){
     cout << endl;
     cout << endl;
     cin >> nome;
-	
-	
-		for(i=0; lista_nomi[0][i]==nome[i]; i++)
+		
+		if(lista_nomi[0][0] == nome[0] && lista_nomi[0][1] == nome[1] && lista_nomi[0][2] == nome[2] && lista_nomi[0][3] == nome[3] && lista_nomi[0][4] == nome[4])
 		{
-			if(i=5){
 			cout << "0";
 		}
-		}
 		
-		for(j=0; lista_nomi[1][j]==nome[j]; j++)
+		if(lista_nomi[1][0] == nome[0] && lista_nomi[1][1] == nome[1] && lista_nomi[1][2] == nome[2] && lista_nomi[1][3] == nome[3] && lista_nomi[1][4] == nome[4])
 		{
-			if(j=5){
 			cout << "1";
 		}
-		}
 		
-		for(z=0; lista_nomi[2][z]==nome[z]; z++)
+		if(lista_nomi[2][0] == nome[0] && lista_nomi[2][1] == nome[1] && lista_nomi[2][2] == nome[2] && lista_nomi[2][3] == nome[3] && lista_nomi[2][4] == nome[4])
 		{
-			if(z=5){
 			cout << "2";
-		}
 		}
 		
 		cout << "";
